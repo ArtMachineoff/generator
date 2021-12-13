@@ -75,7 +75,7 @@ for b in range(amount_files_backgrounds):
 
     img_list_backgrounds = Image.open(my_list_backgrounds[b])
 
-    img_list_backgrounds.paste(main_img, (0, 0))
+    img_list_backgrounds.paste(main_img, (0, 0), main_img)
 
     # img_list_backgrounds.save(f"{third}\{folder_name}\фон {b}.png")
 
